@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "AI Parenting Guardrail (Demo)",
+  "version": "1.0.0",
+  "description": "Minimal local demo guardrail for parent-child connection prompts on ChatGPT.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*"
+      ],
+      "js": [
+        "rules.js",
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
