@@ -1,0 +1,46 @@
+#apg-demo-root {
+  all: initial;
+}
+
+#apg-demo-root .apg-demo-nudge {
+  position: fixed;
+  z-index: 2147483647;
+  max-width: 380px;
+  box-sizing: border-box;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  color: #111827;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+#apg-demo-root .apg-demo-nudge__text {
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+#apg-demo-root .apg-demo-nudge__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#apg-demo-root .apg-demo-nudge__btn {
+  border: 1px solid #9ca3af;
+  background: #f9fafb;
+  color: #111827;
+  font-size: 12px;
+  line-height: 1.2;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+#apg-demo-root .apg-demo-nudge__btn--primary {
+  background: #111827;
+  color: #ffffff;
+  border-color: #111827;
+}
